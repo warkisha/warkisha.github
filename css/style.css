@@ -1,0 +1,648 @@
+body {
+	 font-family: Arial, sans-serif;
+}
+nav {
+	 width: 100%;
+	 height: 60px;
+	 background: #344051;
+}
+.logo {
+	 color: #fff;
+	 font-size: 28px;
+	 line-height: 60px;
+	 padding-left: 300px;
+	 float: left;
+}
+.menu {
+	 float: left;
+	 padding-left: 420px; 
+}
+.menu li {
+	 float: left;
+	 line-height: 60px;
+	 color: #fff;
+	 margin-right: 20px;
+	 font-size: 16px;
+	 text-transform: uppercase;
+}
+.main {
+	 width: 100%;
+	 height: calc(100% - 70px);
+	 background: url(../img/boy.png) 90% 100%/auto 85% no-repeat,url(../img/bg.jpg) center/cover no-repeat;
+}
+
+
+.title__container {
+	 float: left;
+	 margin: 300px 110px 100px 340px;
+	 color: #344051;
+	 text-align: center;
+}
+.title__container h1{
+	 font-size: 60px;
+	 font-weight: bold;
+}
+.title__container h4{
+	 font-size:20px;
+	 margin-top:40px;
+	 color: #37465c;
+}
+.title__container  input{
+	 height: 40px;
+	 text-align: center;
+	 border: 2px solid #37465c;
+	 background: none;
+	 border-radius: 5px;
+	 font-size: 13px;
+	 padding: 0px 16px; 
+	 margin: 50px 14px 0px 14px;
+}
+
+
+.about_me {
+	 background: url(../img/Backend_about_me.jpg)center/cover no-repeat, url(../img/Photo_about_me.png) 200px/200px center/cover ;
+     height: 700px;
+     width: 100%;
+}
+.about_me_title img {
+	 margin-left: 660px; 
+	 margin-top: 20px;
+}
+.about_me_title h2 {
+	 font-weight: 600;
+     text-transform: uppercase;
+     font-family: Arial, sans-serif;
+     font-size:20px;
+     margin-left: 650px; 
+     margin-top: 102px;
+}
+.about_me_Im  img {
+	 margin-top: 20px;
+	 margin-left: 600px;
+}
+.about_me_Im h3 {
+	 text-align: left;
+	 font-family: Arial, sans-serif;
+     margin-left: 370px;
+     margin-top: 20px;
+     margin-right: 370px 
+}
+.about_me_dow_resume {
+	 margin-left: 640px;
+	 margin-top: 40px; 
+	 height: 30px;
+	 width: 150px;
+	 border: 2px solid #37465c;
+	 background: none;
+	 border-radius: 5px;
+	 font-size: 5px;
+	 padding: 0px 10px; 
+}
+
+
+.i_can {
+	float: top;
+	padding-top: 100px; 
+	background: url(../img/back_i_can.jpg) center/cover no-repeat;
+	width: 100%;
+	height: 550px;
+}
+.i_can_title h2 {
+	 font-weight: 600;
+	 text-transform: uppercase;
+     font-family: Arial, sans-serif;
+     font-size:20px;
+     margin-left: 650px; 
+}
+.i_can_title img {
+	 margin-left: 670px; 
+	 margin-top: 20px;
+}
+
+#note {
+     margin-top:  100px;
+     margin-left: 310px; 
+}
+#pare {
+	 margin-top:  100px;
+     margin-left: 180px; 
+}
+#rock {
+	 margin-top:  100px;
+     margin-left: 180px; 
+}
+#gram{
+	 margin-top:  100px;
+     margin-left: 180px;
+     margin-right: 180px; 
+}
+#veb {
+	float: left;
+	font-family: Arial, sans-serif;
+	margin-top:  16px;
+    margin-left: 290px; 
+    font-size:16px;
+    color: #eb9221;
+}
+#razrab {
+	float: left;
+	font-family: Arial, sans-serif;
+	margin-top:  16px;
+    margin-left: 160px; 
+    font-size:16px;
+    color: #eb9221;
+}
+#optimiz {
+	float: left;
+	font-family: Arial, sans-serif;
+	margin-top:  16px;
+    margin-left: 120px; 
+    font-size:16px;
+    color: #eb9221;
+}
+#market {
+	float: left;
+	font-family: Arial, sans-serif;
+	margin-top:  16px;
+    margin-left: 120px; 
+    font-size:16px;
+    color: #eb9221;
+}
+
+
+.keys {
+	 background: url(../img/Backend_about_me.jpg)center/cover no-repeat;
+}
+.keys_title h2{
+	 font-weight: 600;
+	 color: #324561;
+	 text-transform: uppercase;
+     font-family: Arial, sans-serif;
+     font-size:20px;
+     margin-left: 650px;
+     margin-top: 90px; 
+}
+.keys_title img {
+	 margin-left: 650px; 
+	 margin-top: 20px;
+}
+.keys_title h4 {
+	 color: #324561;
+	 font-family: Arial, sans-serif;
+     font-size:10px;
+     margin-left: 500px; 
+     margin-top: 30px;
+     font-weight: 600;
+}
+.keys_example img {
+     margin: 40px 300px 10px 150px;
+}
+
+.keys_example h4{
+	 color: #324561;
+     font-weight: 600;
+     float: left;
+     margin-top: 15px;
+     margin-left: 350px;
+     font-size:20px;
+     font-family: Arial, sans-serif;
+}
+.keys_example_com h5{
+     float: right;
+     color: #324561;
+     margin-top: 20px;
+     margin-left: 00px;
+     margin-right: 1000px; 
+     font-size:10px;
+     font-family: Arial, sans-serif;
+}
+.keys_example_comit h5{
+	 float: right;
+     margin-top: 10px;
+     color: #324561;
+     margin-right: 330px; 
+     font-size:10px;
+     font-family: Arial, sans-serif;
+}
+#commm {
+	 font-size:14px;
+     font-family: Arial, sans-serif;
+     color: #324561;
+}
+.keys_website h4{
+	 font-weight: 600;
+	 font-size: 16px;
+     color: #324561;
+     font-family: Arial, sans-serif;
+     margin-top: 60px;
+     margin-left: 350px;
+     margin-right: 1000px;
+}
+.keys_website h6 {
+	 font-size: 10px;
+     color: #324561;
+     font-family: Arial, sans-serif;
+     margin-top: 10px;
+     margin-left: 340px;
+     margin-right: 1000px;
+}
+#visite {
+	 border: 10px solid #63b5ae;
+	 background: #63b5ae;
+	 border-radius: 5px;
+     font-family: Arial, sans-serif;
+     font-size: 18px;
+     margin-top: 10px;
+     color: #ffffff;
+     margin-left: 340px;
+     margin-right: 1000px;
+}
+
+
+
+.price {
+	 background: url(../img/Backend_about_me.jpg)center/cover no-repeat;
+}
+.price_title {
+	 text-transform: uppercase;
+	 font-weight: 900;
+	 color: #324561;
+	 font-family: Arial, sans-serif;
+     font-size:20px;
+     margin-left: 550px; 
+     margin-top: 50px;
+}
+.price_webtype h3 {
+	 font-weight: 700;
+	 margin-top:20px;
+	 margin-left: 400px;
+	 font-family: Arial, sans-serif;
+	 color: #324561;
+	 text-transform: uppercase;
+	 font-size: 15px;
+}
+.price_webtype select {
+	 margin-top: 10px;
+	 margin-left: 300px;
+	 border: 2px solid #eeeeee;
+	 border-width: 15px 0px 0px 500px;
+	 background: #eeeeee;
+	 border-radius: 5px;
+	 font-size: 15px;
+     font-family: Arial, sans-serif;
+}
+.price_design h3 {
+	 font-weight: 700;
+	 margin-top:20px;
+	 margin-left: 400px;
+	 font-family: Arial, sans-serif;
+	 color: #324561;
+	 text-transform: uppercase;
+	 font-size: 15px;
+}
+.price_design select {
+	 margin-top: 10px;
+	 margin-left: 300px;
+	 border: 2px solid #eeeeee;
+	 border-width: 15px 0px 0px 500px;
+	 background: #eeeeee;
+	 border-radius: 5px;
+	 font-size: 15px;
+     font-family: Arial, sans-serif;
+}
+.price_adapt h3 {
+	 font-weight: 700;
+	 margin-top:20px;
+	 margin-left: 400px;
+	 font-family: Arial, sans-serif;
+	 color: #324561;
+	 text-transform: uppercase;
+	 font-size: 15px;
+}
+.price_adapt select {
+	 margin-top: 10px;
+	 margin-left: 300px;
+	 border: 2px solid #eeeeee;
+	 border-width: 15px 0px 0px 500px;
+	 background: #eeeeee;
+	 border-radius: 5px;
+	 font-size: 15px;
+     font-family: Arial, sans-serif;
+}
+.price_total img {
+	margin-top: 20px;
+	margin-left: 200px;
+}
+.price_total_time {
+     font-family: Arial, sans-serif;
+     color: #323e4f;
+	 margin-top: 20px;
+	 margin-left: 200px;
+	 font-size: 19px;
+	 text-transform: capitalize;
+     font-weight: 700;
+}
+.price_total_cost {
+	 font-family: Arial, sans-serif;
+	 color: #323e4f;
+	 margin-top: 20px;
+	 margin-left: 200px;
+	 margin-bottom: 80px;
+	 font-size: 19px;
+	 text-transform: capitalize;
+     font-weight: 700;
+}
+
+
+
+.statistics {
+	 background: url(../img/statistics_bk.jpg)  center/cover no-repeat;
+	 padding-top: 60px; 
+	 width: 100%;
+	 height: 550px;
+}
+.statistics_title h2{
+	 color: #323e4f;
+	 font-weight: 600;
+	 margin-top: 40px;
+	 text-transform: uppercase;
+     font-family: Arial, sans-serif;
+     font-size:22px;
+     margin-left: 600px; 
+}
+.statistics_title img{
+     margin: 20px 0px 10px 700px;
+}
+
+#smile {
+	 margin-top:  100px;
+     margin-left: 310px; 
+}
+#oran {
+	margin-top:  100px;
+     margin-left: 200px; 
+}
+#check {
+	 margin-top:  100px;
+     margin-left: 200px; 
+}
+#cup {
+	 margin-top:  100px;
+     margin-left: 200px; 
+}
+#li_smile {
+	 font-size:28px;
+	 font-weight: 600;
+	 float: left;
+	 margin-top:  20px;
+     margin-left: 308px; 
+     font-family: Arial, sans-serif;
+     color: #323e4f;
+}
+#li_oran {
+   	 font-size:28px;
+	 font-weight: 600;
+	 float: left;
+	 margin-top:  20px;
+     margin-left: 200px; 
+     font-family: Arial, sans-serif;
+     color: #323e4f;
+}
+#li_check{
+	 font-size:28px;
+	 font-weight: 600;
+	 float: left;
+	 margin-top:  20px;
+     margin-left: 200px; 
+     font-family: Arial, sans-serif;
+     color: #323e4f;
+}
+#li_cup {
+	 font-size:28px;
+     font-weight: 600;
+	 float: left;
+	 margin-top:  20px;
+     margin-left: 216px; 
+     font-family: Arial, sans-serif;
+     color: #323e4f;
+}
+#smile_com {
+	 font-size: 15px;
+	 float: left;
+	 margin-top:  20px;
+     margin-left: 230px; 
+     font-family: Arial, sans-serif;
+     color: #323e4f;
+     text-transform: uppercase;
+}
+#oran_com {
+	 font-size: 15px;
+	 float: left;
+	 margin-top:  20px;
+     margin-left: 110px; 
+     font-family: Arial, sans-serif;
+     color: #323e4f;
+     text-transform: uppercase;
+}
+#check_com {
+	 font-size: 15px;
+	 float: left;
+	 margin-top:  20px;
+     margin-left: 110px; 
+     font-family: Arial, sans-serif;
+     color: #323e4f;
+     text-transform: uppercase;
+}
+#cup_com {
+	 font-size: 15px;
+	 float: left;
+	 margin-top:  20px;
+     margin-left: 110px; 
+     font-family: Arial, sans-serif;
+     color: #323e4f;
+     text-transform: uppercase;
+}
+
+
+.statistics_comment {
+	 background: url(../img/Backend_about_me.jpg)  center/cover no-repeat;
+	 width: 100%;
+	 height: 500px;
+}
+.statistics_comment_title h2 {
+     color: #323e4f;
+	 font-weight: 600;
+	 margin-top: 100px;
+	 text-transform: uppercase;
+     font-family: Arial, sans-serif;
+     font-size:22px;
+     margin-left: 630px; 
+}
+.statistics_comment_title img {
+     margin-left: 650px; 
+	 margin-top: 20px;
+	}
+.statistics_comment_one img {
+	 margin-left: 645px; 
+	 margin-top: 30px;
+}
+.statistics_comment_one h5 {
+	 font-family: Arial, sans-serif;
+	 font-weight: 600;
+     color: #323e4f;
+     margin-left: 520px; 
+	 margin-top: 30px;
+}
+.statistics_comment_one h6 {
+	 font-family: Arial, sans-serif;
+     color: #323e4f;
+     margin-left: 550px; 
+	 margin-top: 20px;
+}
+.statistics_comment_choose {
+     margin-left: 640px; 
+	 margin-top: 20px;
+	 margin-bottom: 80px;
+}
+
+
+
+.contact {
+	 background: url(../img/back_contact.jpg)  center/cover no-repeat;
+	 padding-top: 60px; 
+	 width: 100%;
+	 height: 800px;
+}
+.contact_title h2{
+	 margin-top: 77px;
+	 color: #ffffff;
+	 font-weight: 560;
+	 text-transform: uppercase;
+     font-family: Arial, sans-serif;
+     font-size:22px;
+     margin-left: 630px; 
+}
+.contact_title img {
+   	 margin: 20px 0px 10px 670px;
+}
+.contact_list h4 {
+	 margin-top: 36px;
+	 color: #ffffff;
+     font-family: Arial, sans-serif;
+     font-size:15px;
+     margin-left: 300px; 
+}
+#place {
+	 margin-top:  50px;
+     margin-left: 500px; 
+     width: 18px;
+     height: 28px;
+}
+#mail {
+	 margin-top:  50px;
+     margin-left: 150px; 
+     width: 31px;
+     height: 23px;
+}
+#phone {
+	 margin-top:  50px;
+     margin-left: 150px; 
+     width: 24px;
+     height: 22px;
+}
+#place_com {
+	 float: left;
+	 font-weight: 500;
+	 color: #ffffff;
+	 margin-top:  13px;
+     margin-left: 450px; 
+     font-size:13px;
+     font-family: Arial, sans-serif;
+     text-align: center;
+}
+#mail_com {
+	 float: left;
+	 font-weight: 500;
+	 color: #ffffff;
+	 margin-top:  13px;
+     margin-left: 60px; 
+     font-size:13px;
+     font-family: Arial, sans-serif;
+     text-align: center;
+}
+#phone_com {
+	 float: left;
+	 font-weight: 500;
+	 color: #ffffff;
+	 margin-top:  13px;
+     margin-left: 60px; 
+     font-size:13px;
+     font-family: Arial, sans-serif;
+     text-align: center;
+}
+.contact_now {
+	 margin-top: 70px;
+	 color: #ffffff;
+	 font-weight: 600;
+	 text-transform: uppercase;
+     font-family: Arial, sans-serif;
+     font-size:15px;
+     margin-left: 600px; 
+}
+
+.contact_message_name {
+	margin-top: 20px; 
+     border: 1px solid #c4c4c4;
+     border-radius: 5px;
+     background-color: #fff;
+     padding: 3px 5px;
+     box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+     width: 190px;
+}
+.contact_message_email {
+	 float: left;
+     margin-top: 30px;
+     padding-left: 100px;
+     padding-right: 1000px;
+     border: 1px solid #c4c4c4;
+     border-radius: 5px;
+     background-color: #fff;
+     padding: 3px 5px;
+     box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+     width: 190px;
+}
+.contact_message_text {
+     padding-top: 80px;
+  }
+.contact_message_send {
+	 margin-top: 10px; 
+}
+
+#facebook {
+	 margin-top:70px;
+	 margin-left: 505px;
+}
+#twitter {
+	 margin-top:70px;
+	 margin-left: 45px;
+}
+
+#dribbble {
+	 margin-top:70px;
+	 margin-left: 44px;
+}
+#git {
+	 margin-top:70px;
+	 margin-left: 46px;
+}
+#instagram {
+     margin-top:70px;
+	 margin-left: 45px;
+}
+#linkedin {
+	margin-top:70px;
+	margin-left: 46px;
+}
+
+
+
