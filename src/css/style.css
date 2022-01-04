@@ -1,11 +1,12 @@
 body {
 	 font-family: Arial, sans-serif;
 }
-nav {
+.nav {
+     position: fixed;
 	 width: 100%;
-	 height: 60px;
 	 background: #344051;
 }
+
 .logo {
 	 color: #fff;
 	 font-size: 28px;
@@ -113,6 +114,7 @@ nav {
      font-family: Arial, sans-serif;
      font-size:20px;
      margin-left: 650px; 
+     color: #3f495a;
 }
 .i_can_title img {
 	 margin-left: 670px; 
@@ -133,42 +135,81 @@ nav {
 }
 #gram{
 	 margin-top:  100px;
-     margin-left: 180px;
+     margin-left: 190px;
      margin-right: 180px; 
 }
 #veb {
-	float: left;
-	font-family: Arial, sans-serif;
-	margin-top:  16px;
-    margin-left: 290px; 
-    font-size:16px;
-    color: #eb9221;
+	 float: left;
+	 font-family: Arial, sans-serif;
+	 margin-top:  16px;
+     margin-left: 290px; 
+     font-size:16px;
+     color: #eb9221;
+     text-transform: capitalize;
 }
 #razrab {
-	float: left;
-	font-family: Arial, sans-serif;
-	margin-top:  16px;
-    margin-left: 160px; 
-    font-size:16px;
-    color: #eb9221;
+	 float: left;
+	 font-family: Arial, sans-serif;
+	 margin-top:  16px;
+     margin-left: 155px; 
+     font-size:16px;
+     color: #eb9221;
+     text-transform: capitalize;
 }
 #optimiz {
-	float: left;
-	font-family: Arial, sans-serif;
-	margin-top:  16px;
-    margin-left: 120px; 
-    font-size:16px;
-    color: #eb9221;
+	 float: left;
+	 font-family: Arial, sans-serif;
+	 margin-top:  16px;
+     margin-left: 120px; 
+     font-size:16px;
+     color: #eb9221;
+     text-transform: capitalize;
 }
 #market {
-	float: left;
-	font-family: Arial, sans-serif;
-	margin-top:  16px;
-    margin-left: 120px; 
-    font-size:16px;
-    color: #eb9221;
+	 float: left;
+	 font-family: Arial, sans-serif;
+	 margin-top:  16px;
+     margin-left: 130px; 
+     font-size:16px;
+     color: #eb9221;
+     text-transform: capitalize;
 }
-
+#veb_com {
+	 float: left;
+	 font-family: Arial, sans-serif;
+	 margin-top:  10px;
+     margin-left: 230px; 
+     font-size:13px;
+     color: #3f495a;
+     text-align: center;
+}
+#razrab_com {
+	 float: left;
+	 font-family: Arial, sans-serif;
+	 margin-top:  10px;
+     margin-left: 40px; 
+     font-size:13px;
+     color: #3f495a;
+     text-align: center;
+}
+#optimiz_com {
+	 float: left;
+	 font-family: Arial, sans-serif;
+	 margin-top:  10px;
+     margin-left: 35px; 
+     font-size:13px;
+     color: #3f495a;
+     text-align: center;
+}
+#market_com {
+     float: left;
+	 font-family: Arial, sans-serif;
+	 margin-top:  10px;
+     margin-left: 40px; 
+     font-size:13px;
+     color: #3f495a;
+     text-align: center;
+}
 
 .keys {
 	 background: url(../img/Backend_about_me.jpg)center/cover no-repeat;
@@ -181,29 +222,39 @@ nav {
      font-size:20px;
      margin-left: 650px;
      margin-top: 90px; 
+     color: #3f495a;
 }
 .keys_title img {
 	 margin-left: 650px; 
 	 margin-top: 20px;
 }
 .keys_title h4 {
-	 color: #324561;
 	 font-family: Arial, sans-serif;
      font-size:10px;
-     margin-left: 500px; 
+     margin-left: 470px; 
      margin-top: 30px;
      font-weight: 600;
+     color: #3f495a;
 }
 .keys_example img {
      margin: 40px 300px 10px 150px;
 }
 
-.keys_example h4{
+.keys_example_client h4{
 	 color: #324561;
      font-weight: 600;
      float: left;
      margin-top: 15px;
-     margin-left: 350px;
+     margin-left: 200px;
+     font-size:20px;
+     font-family: Arial, sans-serif;
+}
+#name {
+	 float: left;
+	 color: #324561;
+     font-weight: 600;
+     margin-top: 10px;
+     margin-left: 150px;
      font-size:20px;
      font-family: Arial, sans-serif;
 }
@@ -211,81 +262,94 @@ nav {
      float: right;
      color: #324561;
      margin-top: 20px;
-     margin-left: 00px;
+     margin-left: 200px;
      margin-right: 1000px; 
      font-size:10px;
      font-family: Arial, sans-serif;
 }
-.keys_example_comit h5{
+#company {
 	 float: right;
+	 font-weight: 600;
      margin-top: 10px;
+     margin-bottom: 10px;
+     margin-right: 1150px;
      color: #324561;
-     margin-right: 330px; 
+     margin-left: 100px; 
      font-size:10px;
      font-family: Arial, sans-serif;
 }
+
 #commm {
+	 float: right;
 	 font-size:14px;
+     margin-right: 300px;
      font-family: Arial, sans-serif;
      color: #324561;
+     position: relative;
+     bottom: 30px;
 }
 .keys_website h4{
-	 font-weight: 600;
-	 font-size: 16px;
+	 font-weight: 700;
+	 font-size: 20px;
      color: #324561;
      font-family: Arial, sans-serif;
-     margin-top: 60px;
-     margin-left: 350px;
+     margin-top: 10px;
+     margin-left: 190px;
      margin-right: 1000px;
 }
 .keys_website h6 {
 	 font-size: 10px;
      color: #324561;
      font-family: Arial, sans-serif;
-     margin-top: 10px;
+     margin-top: 5px;
      margin-left: 340px;
      margin-right: 1000px;
+     position: relative;
+     right: 150px;
+     position: relative;
+     bottom: 10px;
 }
 #visite {
 	 border: 10px solid #63b5ae;
+	 border-width: 10px 25px 10px 25px;
 	 background: #63b5ae;
 	 border-radius: 5px;
      font-family: Arial, sans-serif;
      font-size: 18px;
      margin-top: 10px;
      color: #ffffff;
-     margin-left: 340px;
-     margin-right: 1000px;
+     margin-left: 150px;
+     margin-right: 500px;
+     text-transform: uppercase;
 }
-
-
 
 .price {
 	 background: url(../img/Backend_about_me.jpg)center/cover no-repeat;
+
 }
 .price_title {
+     font-weight: 600;
 	 text-transform: uppercase;
-	 font-weight: 900;
 	 color: #324561;
 	 font-family: Arial, sans-serif;
      font-size:20px;
-     margin-left: 550px; 
+     margin-left: 600px; 
      margin-top: 50px;
 }
 .price_webtype h3 {
 	 font-weight: 700;
-	 margin-top:20px;
-	 margin-left: 400px;
+	 margin-top:30px;
+	 margin-left: 500px;
 	 font-family: Arial, sans-serif;
 	 color: #324561;
 	 text-transform: uppercase;
 	 font-size: 15px;
 }
 .price_webtype select {
-	 margin-top: 10px;
-	 margin-left: 300px;
+	 margin-top: 30px;
+	 margin-left: 400px;
 	 border: 2px solid #eeeeee;
-	 border-width: 15px 0px 0px 500px;
+	 border-width: 15px 490px 0px 10px;
 	 background: #eeeeee;
 	 border-radius: 5px;
 	 font-size: 15px;
@@ -293,18 +357,18 @@ nav {
 }
 .price_design h3 {
 	 font-weight: 700;
-	 margin-top:20px;
-	 margin-left: 400px;
+	 margin-top:30px;
+	 margin-left: 500px;
 	 font-family: Arial, sans-serif;
 	 color: #324561;
 	 text-transform: uppercase;
 	 font-size: 15px;
 }
 .price_design select {
-	 margin-top: 10px;
-	 margin-left: 300px;
+	 margin-top: 30px;
+	 margin-left: 400px;
 	 border: 2px solid #eeeeee;
-	 border-width: 15px 0px 0px 500px;
+	 border-width: 15px 490px 0px 0px;
 	 background: #eeeeee;
 	 border-radius: 5px;
 	 font-size: 15px;
@@ -312,18 +376,18 @@ nav {
 }
 .price_adapt h3 {
 	 font-weight: 700;
-	 margin-top:20px;
-	 margin-left: 400px;
+	 margin-top:30px;
+	 margin-left: 500px;
 	 font-family: Arial, sans-serif;
 	 color: #324561;
 	 text-transform: uppercase;
 	 font-size: 15px;
 }
 .price_adapt select {
-	 margin-top: 10px;
-	 margin-left: 300px;
+	 margin-top: 30px;
+	 margin-left: 400px;
 	 border: 2px solid #eeeeee;
-	 border-width: 15px 0px 0px 500px;
+	 border-width: 15px 490px 0px 0px;
 	 background: #eeeeee;
 	 border-radius: 5px;
 	 font-size: 15px;
@@ -331,13 +395,13 @@ nav {
 }
 .price_total img {
 	margin-top: 20px;
-	margin-left: 200px;
+	margin-left: 300px;
 }
 .price_total_time {
      font-family: Arial, sans-serif;
      color: #323e4f;
 	 margin-top: 20px;
-	 margin-left: 200px;
+	 margin-left: 300px;
 	 font-size: 19px;
 	 text-transform: capitalize;
      font-weight: 700;
@@ -346,7 +410,7 @@ nav {
 	 font-family: Arial, sans-serif;
 	 color: #323e4f;
 	 margin-top: 20px;
-	 margin-left: 200px;
+	 margin-left: 300px;
 	 margin-bottom: 80px;
 	 font-size: 19px;
 	 text-transform: capitalize;
@@ -591,13 +655,16 @@ nav {
 }
 
 .contact_message_name {
-	margin-top: 20px; 
+	 margin-top: 20px; 
      border: 1px solid #c4c4c4;
      border-radius: 5px;
      background-color: #fff;
      padding: 3px 5px;
      box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
      width: 190px;
+     position: relative;
+     top:20px;
+     right: 100px;
 }
 .contact_message_email {
 	 float: left;
@@ -610,9 +677,14 @@ nav {
      padding: 3px 5px;
      box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
      width: 190px;
+     position: relative;
+     left: 100px;
+     bottom: 34px;
 }
 .contact_message_text {
      padding-top: 80px;
+     border: 1px solid #c4c4c4;
+     border-radius: 5px;
   }
 .contact_message_send {
 	 margin-top: 10px; 

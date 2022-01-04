@@ -14,6 +14,7 @@
 </head>
 <body>
 	 <header>
+	 	<div class="nav">
 		 <nav>
 			 <div class="logo" >Андрей Браун</div>
 			 <div class="menu"> <ul>
@@ -26,6 +27,7 @@
              </ul>
              </div>		 
           </nav>
+      </div>
 	 </header>
 
 <div class="main"> <div class="title__container ">
@@ -60,14 +62,19 @@
    	     <img src="img/parentheses.png" alt="скобки" width="50" height="30" id = "pare">  <!--картинка со скобками--> 
    	     <img src="img/rocket.png" alt="ракета" width="50" height="30" id="rock"> <!--картинка с ракетой--> 
    	     <img src="img/gramophone.png" alt="граммофоном" width="50" height="30" id="gram"> <!--картинка с граммофоном--> 
-   	     
    </div>
    <div class="i_can_name">
    	     <h3 id="veb">веб-дизайн</h3>  <!--название умения-->
          <h3 id="razrab">разработка</h3>  <!--название умения -->
 
          <h3 id="optimiz">СЕО-оптимизация</h3>  <!--название умения--> 
-         <h3 id="market">маркетинг</h3>  <!--название умения--> 
+         <h3 id="market">маркетинг</h3>  <!--название умения-->
+    <div class="i_can_com">
+    	 <h4 id="veb_com">Lorem ipsum dolor sit amet placerat<p> facilisis felis mi in tempus eleifend </p>pellentesque natoque etiam.</h4>
+    	 <h4 id="razrab_com">Lorem ipsum dolor sit amet placerat <p> facilisis felis mi in tempus eleifend </p> pellentesque.</h4>
+    	 <h4 id="optimiz_com">Lorem ipsum dolor sit amet placerat <p> facilisis felis mi in tempus eleifend </p> pellentesque natoque etiam.</h4>
+         <h4 id="market_com">Lorem ipsum dolor sit amet placerat <p> facilisis felis mi in tempus eleifend </p> pellentesque natoque.</h4>
+    </div> 
 </div>
 </div>
 
@@ -79,23 +86,26 @@
 	 </div>
 	 <div class="keys_example"> <!-- пример сайта--> 
 		 <img src="img/keys.png" alt="Пример сайта" width="1200" height="570">  <!--картинка пример сайта--> 
+    </div>
+    <div class="keys_example_client">
 		 <h4> CLIENT </h4> <!--мои клиенты--> 
-		
-		 <h4> Название проекта </h4> 
+	</div>	
+	 <div class="keys_example_company">
+	 	<h5 id="name"> Название проекта </h5>
+     	<h5 id="company"> Какая-то компания </h5> 
      </div>
-     <div class="keys_example_comit">
-     	<h5 id="commm">Lorem ipsum dolor sit amet , consectetur adipiscing elit .<p> Duis sed Dapibus leo ecomare diannood </p>did nibh ante facilisis</h5><!--отзыв-->
-     
-         <h5> Какая-то компания </h5> 
-         
+     <div class="keys_example_com_comm">
+     	<h5 id="commm">Lorem ipsum dolor sit amet, consectetur adipiscing elit., Sed do eiusmod tempor incididunt ut labore et dolore magna <p> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h5><!--отзыв-->
      </div>
+    
+    
      <div class = "keys_website">
          <h4>WEBSITE</h4> 
-         <h6> <a href= "https://somedomain.com" > </a> https://somedomain.com</p> <!--сайт клиента--> </h6>
+         <h6> <a href= "https://webref.ru/example/page/new.html?" > https://somedomain.com </a> </h6> <!--сайт клиента--> 
          <form action="https://webref.ru/example/page/new.html?" method="GET" target="_blank">
-	         <button type= "submit" id="visite">visite site</button> <!--кнопка на сайт клиента--> 
+	         <button type= "submit" id="visite">visite live site</button> <!--кнопка на сайт клиента--> 
          </form>  
-	    </div>
+	  </div>
 </div>
 
 
@@ -103,28 +113,30 @@
 	 <div class="price_title"> 
 		 <h2>Расчет  стоимости</h2>
 	 </div>
+	 <form action="price">
 	 <div class="price_webtype"> <!--выбор типа сайта--> 
 	     <h3>Тип сайта</h3>
 	     <select> <!--кнопка выбора типа сайта--> 
-	         <option disabled>Выберите пункт</option>
-	         <option>Пункт 1</option>
-	         <option>Пункт 2</option>
-	         <option>Пункт 3</option>
+	         <option > Выберите пункт... </option>
+	         <option value="1"> Пункт 1 </option>
+	         <option value="2"> Пункт 2 </option>
+	         <option value="3"> Пункт 3 </option>
 	     </select>
 	 </div>
 	 <div class="price_design"> <!--выбор дизайна сайта-->
 	     <h3>Дизайн</h3>
 	     <select> <!--кнопка выбора дизайна сайта--> 
-	         <option disabled>Выберите пункт</option>
+	         <option> Выберите пункт...</option>
 	         <option>Пункт 1</option>
 	         <option>Пункт 2</option>
 	         <option>Пункт 3</option>
+	         
 	     </select>
 	 </div>
      <div class="price_adapt"> <!--кнопка выбора адаптианости сайта--> 
    	     <h3>Адаптивность</h3>
 	     <select>
-	  	     <option disabled>Выберите пункт</option>
+	  	     <option>Выберите пункт...</option>
 	         <option>Пункт 1</option>
 	         <option>Пункт 2</option>
 	         <option>Пункт 3</option>
@@ -140,7 +152,7 @@
      </div>
 </div>
 </div>
-
+</form>
 
 <div class="statistics"> <!--страница статистики--> 
 	 <div class="statistics_title">
@@ -205,6 +217,7 @@
 		 <div class = "contact_now_title">
 			 <h2>оставьте мне сообщение</h2>
 	     </div>
+	     <form id="massege" action="#">
 	<div class="contact_message_name"> <!--сообщение от пользователя ИМЯ -->
 		 <input name="name" type="text" /> <!--поле для ввода имени-->
    </div>
@@ -217,6 +230,7 @@
    <div class="contact_message_send">
          <button type= "submit" >отправить</button> <!--форма отправки-->
    </div>
+</form>
 </div>
   <div class = "contact_remain"> <!--остальные контакты -->
      	 <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" width="30" height="30" alt="мой facebook" id="facebook"></a> 
@@ -224,7 +238,7 @@
          <a href="https://dribbble.com/" target="_blank"><img src="img/dribble.png" width="30" height="30" alt="мой dribbble" id="dribbble"></a> 
          <a href="https://github.com/" target="_blank"><img src="img/git.png" width="30" height="30" alt="мой git" id="git"></a>
          <a href="https://www.instagram.com/" target="_blank"><img src="img/inst.png" width="30" height="30" alt="мой instagram" id=
-         	"instagram"></a>
+         	"instagram"></a> 
          <a href="https://www.linkedin.com/" target="_blank"><img src="img/link.png" width="30" height="30" alt="мой linkedin" id="linkedin"></a>
      </div>
 </div>
